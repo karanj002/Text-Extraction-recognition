@@ -1,5 +1,5 @@
 user_inputa=input("Enter the Text to be searched:")
-file=open("C:\\ShareholderText.txt",'r')
+file=open("your file",'r')
 
 for line in file:
     if user_input in line:
@@ -7,7 +7,7 @@ for line in file:
 
 ################################################
 
-f=open("c:\\ShareholderText.txt","r")
+f=open("File path","r")
 user_inputa=input("Enter the Text to be searched:")
 s=" "
 count=1
